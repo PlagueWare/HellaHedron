@@ -55,9 +55,11 @@ body {
     border-color: whitesmoke;
 }
 
-#bandname {
+#bandName {
     margin: 0;
-    padding: 1% 0;
+    padding: 0;
+    padding-top: 1%;
+    background-color: transparent;
     color: whitesmoke;
     font-family: 'Permanent Marker', cursive;
     font-size: 4em;
@@ -66,12 +68,12 @@ body {
     text-shadow: 5px 5px 15px black;
 }
 
-#bandmembers {
-    max-width: 80%;
+#bandMembers {
+    max-width: 66%;
     padding: 1% 0;
 }
 
-#bandmembers .col {
+#bandMembers .col {
     margin: 0;
     padding: 1%;
 }
@@ -88,4 +90,25 @@ body {
     color: white;
     font-size: 1.25em;
     text-shadow: 5px 5px 15px black;
+}
+
+/* INSTAGRAM */
+
+#instagramFeed {
+    margin: 0 auto;
+}
+
+.instagramPost {
+    padding: 1.5%;
+}
+
+/* STORE */
+
+.navbar-dark #storeFilters {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-dark #filtersDropdown {
+    float: right;
 }
